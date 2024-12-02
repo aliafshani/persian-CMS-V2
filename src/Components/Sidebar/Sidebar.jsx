@@ -55,13 +55,15 @@ function Sidebar() {
                          </li>
                          <li className='sidebar-link-li'>
                               <p><BsCurrencyDollar /></p>
-                              <Link to={"/persian-CMS-V2/offers"}>تخفیف ها</Link>
+                              <Link to={"/persian-CMS-V2/offers"}>تخفیف </Link>
                          </li>
                          <li
                               onClick={() => test()}
                               className='sidebar-link-li'>
                               <p><IoColorPaletteOutline /></p>
-                              <Link to={"/persian-CMS-V2/products"}>تغییر تم</Link>
+                              <Link to={"/persian-CMS-V2/products"}>
+
+                                   تغییر تم</Link>
                          </li>
                     </ul>
                </div>
